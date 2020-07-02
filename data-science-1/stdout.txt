@@ -1,0 +1,38 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.1, pytest-5.4.3, py-1.9.0, pluggy-0.13.1 -- C:\Users\lucas\codenation\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\lucas\codenation\data-science-1
+collecting ... collected 5 items
+
+test_submit.py::test_q1 PASSED                                           [ 20%]
+test_submit.py::test_q2 PASSED                                           [ 40%]
+test_submit.py::test_q3 PASSED                                           [ 60%]
+test_submit.py::test_q4 PASSED                                           [ 80%]
+test_submit.py::test_q5 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+C:\Users\lucas\codenation\venv\lib\site-packages\_pytest\junitxml.py:417
+  C:\Users\lucas\codenation\venv\lib\site-packages\_pytest\junitxml.py:417: PytestDeprecationWarning: The 'junit_family' default value will change to 'xunit2' in pytest 6.0.
+  Add 'junit_family=xunit1' to your pytest.ini file to keep the current format in future versions of pytest and silence this warning.
+    _issue_warning_captured(deprecated.JUNIT_XML_DEFAULT_FAMILY, config.hook, 2)
+
+C:\Users\lucas\codenation\venv\lib\site-packages\IPython\core\interactiveshell.py:2909
+  C:\Users\lucas\codenation\venv\lib\site-packages\IPython\core\interactiveshell.py:2909: DeprecationWarning: "@coroutine" decorator is deprecated since Python 3.8, use "async def" instead
+    def run_cell_async(self, raw_cell: str, store_history=False, silent=False, shell_futures=True) -> ExecutionResult:
+
+C:\Users\lucas\codenation\venv\lib\site-packages\IPython\core\interactiveshell.py:3129
+  C:\Users\lucas\codenation\venv\lib\site-packages\IPython\core\interactiveshell.py:3129: DeprecationWarning: "@coroutine" decorator is deprecated since Python 3.8, use "async def" instead
+    def run_ast_nodes(self, nodelist:ListType[AST], cell_name:str, interactivity='last_expr',
+
+C:\Users\lucas\codenation\venv\lib\site-packages\IPython\core\interactiveshell.py:3260
+  C:\Users\lucas\codenation\venv\lib\site-packages\IPython\core\interactiveshell.py:3260: DeprecationWarning: "@coroutine" decorator is deprecated since Python 3.8, use "async def" instead
+    def run_code(self, code_obj, result=None, *, async_=False):
+
+C:\Users\lucas\codenation\venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+C:\Users\lucas\codenation\venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+  C:\Users\lucas\codenation\venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+    from collections import Mapping, Iterable
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+--- generated xml file: C:\Users\lucas\codenation\data-science-1\output.xml ---
+======================== 5 passed, 6 warnings in 3.13s ========================
